@@ -1,0 +1,120 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: monospace;
+    background-color: antiquewhite;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+}
+img{
+    width: 75px;
+}
+.nav-Items a {
+    text-decoration: none;
+    font-family: monospace;
+    margin-right: 20px;
+    color: white;
+    font-size: 16px;
+}
+.nav-Items a:hover{
+    color: tomato;
+}
+.btn-1{
+    border:none;
+    font-family: monospace;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}
+.btn-1:hover{
+    color: tomato;
+}
+.btn-2{
+    border: 1.5px solid burlywood;
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 15px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.btn-2:hover{
+    background-color:rgb(135, 112, 83) ;
+    color: white;
+    border-color: antiquewhite;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.main-container{
+    margin-top:5%;
+    display: flex;
+    justify-content: center;
+}
+
+.h1{
+    font-size: 30px;
+    width: 500px;
+    color: antiquewhite;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: rgb(135, 112, 83);
+    text-align: center;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px; 
+    margin-top: 10px;
+    padding: 40px 20px;
+    background-color:rgb(135, 112, 83);
+    border-radius: 8px;
+}
+.input input{ 
+    padding: 15px 10px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    border: none;
+}
+
+.input textarea{
+    border-radius: 8px;
+    padding: 8px;
+}
+/* input[text=text]:focus{
+    border: none;
+} */
+
+.btn-3{
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 1.5px black ;
+    font-size: 20px;
+    font-family: monospace;
+    background-color:wheat;
+    margin-top: 15px;
+}
+.btn-3:hover{
+    color: white;
+    background-color: rgb(224, 195, 141);
+}
+
+/* .imgs{
+    margin-top: 20px;
+    width: 400px;
+    height: 300px;background-color: blue;
+    background-image: url(/imgs/SDLC-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
